@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Video Sharing - Youtube Channel</title>
+</head>
+<body>
+    <nav class="flex-div">
+        <div class="nav-left flex-div">
+             <img src="images/menu.png" class="menu-icon">
+             <img src="images/logo.jpeg" class="logo">
+        </div>
+        <div class="nav-middle flex-div">
+            <div class="search-box flex-div">
+                <input type="text" placeholder="Search">
+                <img src="images/search.png">
+            </div>
+            <img src="images/voice-search.png" class="mic-icon"> 
+        </div>
+        <div class="nav-right flex-div">
+            <img src="images/upload.png">
+            <img src="images/more.png">
+            <img src="images/notification.png">
+            <img src="images/jack.jpeg" class="user-icon">
+        </div>
+    </nav>    
+    <!-- ---------------- sidebar------------ -->
+    <div class="sidebar">
+        <div class="shortcut-links">
+            <a href=""><img src="images/home.png"><p>Home</p></a>
+            <a href=""><img src="images/explore.png"><p>Explore</p></a>
+            <a href=""><img src="images/subscriprion.png"><p>Subscription</p></a>
+            <a href=""><img src="images/library.png"><p>Library</p></a>
+            <a href=""><img src="images/history.png"><p>History</p></a>
+            <a href=""><img src="images/playlist.png"><p>Playlist</p></a>
+            <a href=""><img src="images/messages.png"><p>Messages</p></a>
+            <a href=""><img src="images/show-more.png"><p>Show More</p></a>
+            <hr> 
+        </div>
+        <div class="subscribed-list">
+            <h3>SUBSCRIBED</h3>
+            <a href=""><img src="images/jack.jpeg"><p>Jack Nicholson</p></a>
+            <a href=""><img src="images/simon.png"><p>Simon Baker</p></a>
+            <a href=""><img src="images/tom.png"><p>Tom Hardy</p></a>
+            <a href=""><img src="images/megan.png"><p>Megan Ryan</p></a>
+            <a href=""><img src="images/cameron.png"><p>Cameron Diaz</p></a>
+        </div>
+    </div>
+    <!-- ------- main -------- -->
+    <div class="container">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item banner active">
+                <img
+                  src="images/banner.jpeg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item banner">
+                <img
+                  src="images/image2.jpeg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item banner">
+                <img
+                  src="images/image3.jpeg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        <div class="list-container">
+            <div class="vid-list">
+                <a href="play-video.html"><img src="images/thumbnail1.png" class="thumbnail"></a>
+                <div class="flex-div">
+                    <img src="images/jack.jpeg">
+                    <div class="vid-info">
+                        <a href="play-video.html">Best channel to learn coding that help you to be a web developer</a>
+                        <p>Varshini Verse</p>
+                        <p>15k Views &bull; 2 days</p>
+                    </div>
+                </div>
+            </div>
+            <div class="vid-list">
+                <a href=""><img src="images/thumbnail2.jpg" class="thumbnail"></a>
+                <div class="flex-div">
+                    <img src="images/jack.jpeg">
+                    <div class="vid-info">
+                        <a href="">Best channel to learn coding that help you to be a web developer</a>
+                        <p>Varshini Verse</p>
+                        <p>15k Views &bull; 2 days</p>
+                    </div>
+                </div>
+            </div>
+            <div class="vid-list">
+                <a href=""><img src="images/thumbnail3.jpg" class="thumbnail"></a>
+                <div class="flex-div">
+                    <img src="images/jack.jpeg">
+                    <div class="vid-info">
+                        <a href="">Best channel to learn coding that help you to be a web developer</a>
+                        <p>Varshini Verse</p>
+                        <p>15k Views &bull; 2 days</p>
+                    </div>
+                </div>
+            </div>
+            <div class="vid-list">
+                <a href=""><img src="images/thumbnail4.jpg" class="thumbnail"></a>
+                <div class="flex-div">
+                    <img src="images/jack.jpeg">
+                    <div class="vid-info">
+                        <a href="">Best channel to learn coding that help you to be a web developer</a>
+                        <p>Varshini Verse</p>
+                        <p>15k Views &bull; 2 days</p>
+                    </div>
+                </div>
+            </div>
+            <div class="vid-list">
+                <a href=""><img src="images/thumbnail5.jpg" class="thumbnail"></a>
+                <div class="flex-div">
+                    <img src="images/jack.jpeg">
+                    <div class="vid-info">
+                        <a href="">Best channel to learn coding that help you to be a web developer</a>
+                        <p>Varshini Verse</p>
+                        <p>15k Views &bull; 2 days</p>
+                    </div>
+                </div>
+            </div>
+            <div class="vid-list">
+                <a href=""><img src="images/thumbnail6.png" class="thumbnail"></a>
+                <div class="flex-div">
+                    <img src="images/jack.jpeg">
+                    <div class="vid-info">
+                        <a href="">Best channel to learn coding that help you to be a web developer</a>
+                        <p>Varshini Verse</p>
+                        <p>15k Views &bull; 2 days</p>
+                    </div>
+                </div>
+            </div>
+            <div class="vid-list">
+                <a href=""><img src="images/thumbnail7.png" class="thumbnail"></a>
+                <div class="flex-div">
+                    <img src="images/jack.jpeg">
+                    <div class="vid-info">
+                        <a href="">Best channel to learn coding that help you to be a web developer</a>
+                        <p>Varshini Verse</p>
+                        <p>15k Views &bull; 2 days</p>
+                    </div>
+                </div>
+            </div>
+            <div class="vid-list">
+                <a href=""><img src="images/thumbnail8.png" class="thumbnail"></a>
+                <div class="flex-div">
+                    <img src="images/jack.jpeg">
+                    <div class="vid-info">
+                        <a href="">Best channel to learn coding that help you to be a web developer</a>
+                        <p>Varshini Verse</p>
+                        <p>15k Views &bull; 2 days</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
